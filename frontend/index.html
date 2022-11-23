@@ -27,11 +27,11 @@
             <div class="illustration">
                 <img src="" alt="">
             </div>
-            <div class="type of wool">
-                <h3>Choisissez votre pelote </h3>
-                <div class="matter">
+            <div class="type-of-wool">
+                <div class="bloc matter">
+                    <h3><span>1</span> Choisissez une matière </h3>
                     <select name="matter" id="matter-select">
-                        <option value=""> Sélectionnez une matière</option>
+                        <option value=""> Selectionnez une matière</option>
                         <option value="Laine">Laine</option>
                         <option value="Coton">Coton</option>
                         <option value="Alpaga">Alpaga</option>
@@ -42,17 +42,17 @@
                         <option value="Vegan">Vegan</option>
                     </select>
                 </div>
-                <div class="wool">
-                    <h3>Choisissez votre pelote</h3>
+                <div class="bloc wool">
+                    <h3><span>2</span> Choisissez votre pelote</h3>
                     <select name="wool" id="wool">
-                        <option value=""> Sélectionnez votre pelote</option>
+                        <option value=""> Selectionnez votre pelote</option>
                         <option value="">En fonction de la matière selectionnée</option>
                     </select>
                 </div>
-                <div class="needles">
-                    <h3>Choisissez votre taillez d'aiguilles</h3>
+                <div class="bloc needles">
+                    <h3><span>3</span> Choisissez votre taille d'aiguilles</h3>
                     <select name="needles" id="needles">
-                        <option value=""> Sélectionnez une taille d'aiguille</option>
+                        <option value=""> Selectionnez une taille d'aiguille</option>
                         <option value="20">2.0</option>
                         <option value="25">2.5</option>
                         <option value="30">3.0</option>
@@ -74,19 +74,13 @@
                     </select>
                 </div>
             </div>
+            <div class="btn-valid">
+                <button class="btn">Valider</button>
+            </div>
             <div id="sample">
-                <h3>Votre échantillon 10x10</h3>
-                <div class="wool">
-                    <img src="" alt="">
-                </div>
-                <i>+</i>
-                <div class="needles">
-                    <img src="" alt="">
-                </div>
-                <i>=</i>
+                <h3>Votre échantillon 10cm x10cm</h3>
                 <div>
-                    <p class="mailles">xx mailles</p>
-                    <p class="rangs">xx rang</p>
+                    <p class="mailles">Pour avoir un échantillon de 10cm sur 10cm vous devriez tricoter <span class="mailles"></span> sur <span class="rangs"></span> rangs !</p>
                 </div>
             </div>
         </div>

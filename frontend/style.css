@@ -1,3 +1,7 @@
+/* General */
+html{
+    font-family: 'Open Sans', sans-serif;
+}
 /* Header */
 
 .header-content{
@@ -22,6 +26,85 @@
 }
 
 /* Converter */
-main{
-    font-family: 'Open Sans', sans-serif;
+
+#converter{
+    background-color: #f8f8f8;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 40px;
+}
+
+#converter h2{
+    text-align: center;
+    margin: 0px;
+    font-size: 22px;
+}
+
+#converter h3, .bloc{
+    width: auto;
+}
+.bloc{
+    padding:20px 0px 20px 0px;
+}
+#converter span{
+    background-color: #000000;
+    color:#f8f8f8;
+    padding: 7px 10px 5px 10px;
+}
+
+/*type-of-wool*/
+
+.type-of-wool{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1200px){
+    .type-of-wool{
+        flex-direction: column;
+    }
+}
+
+/* Select */
+
+#converter select{
+    background-color: #ffffff;
+    border: solid 1px black;
+}
+
+/* Button */
+
+.btn{
+    background-color: #ffffff;
+    border: solid 1px black;
+    width: 100px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: #000000;
+    color: #f8f8f8;
+}
+.btn-valid{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
+}
+
+/* Resultat */
+
+#sample h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+#sample span{
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+#sample p{
+    text-align: center;
+    margin: 40px;
 }
