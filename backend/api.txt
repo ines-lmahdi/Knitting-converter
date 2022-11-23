@@ -1,0 +1,45 @@
+Creer un API en JSON
+
+0:
+    _id:""
+    name: ""
+    imageUrl: ""
+    matiere: ""
+    dimension: ""
+    colors:
+        0:""
+        1:""
+        2:""
+
+1:
+    _id:""
+    name: ""
+    imageUrl: ""
+    matiere: ""
+    dimension: ""
+    colors:
+        0:""
+        1:""
+        2:""
+
+2:
+    _id:""
+    name: ""
+    imageUrl: ""
+    matiere: ""
+    dimension: ""
+    colors:
+        0:""
+        1:""
+        2:""
+
+3:
+    _id:""
+    name: ""
+    imageUrl: ""
+    matiere: ""
+    dimension: ""
+    colors:
+        0:""
+        1:""
+        2:""

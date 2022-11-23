@@ -29,7 +29,7 @@ html{
 
 #converter{
     background-color: #f8f8f8;
-    width: 80%;
+    width: 60%;
     margin-left: 10%;
     margin-right: 10%;
     padding: 40px;
@@ -59,11 +59,17 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: auto;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1670px){
     .type-of-wool{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bloc{
+        width: 80%;
     }
 }
 
